@@ -39,9 +39,9 @@ function MyApp({ Component, pageProps }) {
         />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
-      <div className="min-h-screen flex flex-col">
+      <div className="flex flex-col min-h-screen">
         <Header />
-        <main className="flex-1 p-8">
+        <main className="flex-1 p-12 max-w-5xl mx-auto">
           <Component {...pageProps} />
         </main>
         <Footer />
