@@ -2,7 +2,7 @@ import React, { FC } from "react";
 
 type Props = {
   src: string;
-  alt: string;
+  alt?: string;
   width?: string;
   height?: string;
   className?: string;
@@ -10,7 +10,7 @@ type Props = {
 
 export const Image: FC<Props> = ({
   src,
-  alt,
+  alt = "",
   width = "",
   height = "",
   className = "",
