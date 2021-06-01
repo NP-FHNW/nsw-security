@@ -41,7 +41,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <div className="flex flex-col min-h-screen">
         <Header />
-        <main className="flex-1 p-12 max-w-5xl mx-auto">
+        <main className="flex-1 py-10 px-6 lg:py-12 lg:px-8 max-w-5xl mx-auto w-full">
           <Component {...pageProps} />
         </main>
         <Footer />
