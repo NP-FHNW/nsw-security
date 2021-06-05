@@ -13,7 +13,7 @@ export const IconCardSmall: FC<Props> = ({
        link
 }) => (
     <div className="inline-grid  rounded border-2 border-gray-500 p-4">
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center gap-4">
             <div className="flex-auto">
                 {icon}
             </div>
