@@ -1,4 +1,5 @@
 import React, {FC, ReactElement} from "react";
+import { Image } from "../elements/image";
 
 type Props = {
     imgSrc: string,
@@ -21,9 +22,7 @@ export const ImageCard: FC<Props> = ({
     reverse
 }) => (
     <div className={getClassNames(reverse)}>
-        <div className="flex-grow flex-shrink-0">
-            <img src={imgSrc} alt={imgDescription} />
-        </div>
+            <Image width="w-1/2" src={imgSrc} alt={imgDescription} />
         <div className="flex flex-col gap-4 items-start">
             {children}
         </div>
