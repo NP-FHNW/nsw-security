@@ -10,7 +10,6 @@ module.exports = {
       "/": { page: "/" },
       "/angebote": { page: "/angebote" },
       "/referenzen": { page: "/referenzen" },
-      "/faq": { page: "/faq" },
       "/kontakt": { page: "/kontakt" },
       "/impressum": { page: "/impressum" },
       "/agb": { page: "/agb" },

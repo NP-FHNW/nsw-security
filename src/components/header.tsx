@@ -5,7 +5,6 @@ import React, { FC, useState } from "react";
 import { Navlink } from "../elements/navlink";
 import {
   ANGEBOTE,
-  FAQ,
   KONTAKT,
   REFERENZEN,
   routeIsActive,
@@ -33,9 +32,6 @@ const NavBase: FC<Props> = ({ className, close }) => {
         onClick={close}
       >
         Referenzen
-      </Navlink>
-      <Navlink active={routeIsActive(router, FAQ)} href={FAQ} onClick={close}>
-        FAQ
       </Navlink>
       <Navlink
         active={routeIsActive(router, KONTAKT)}
