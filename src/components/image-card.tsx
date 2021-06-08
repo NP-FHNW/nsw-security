@@ -16,15 +16,16 @@ function getClassNames(reverse) {
 }
 
 export const ImageCard: FC<Props> = ({
-    children,
     imgSrc,
     imgDescription,
-    reverse
+    reverse,
+    text
+
 }) => (
     <div className={getClassNames(reverse)}>
             <Image width="w-1/2" src={imgSrc} alt={imgDescription} />
         <div className="flex flex-col gap-4 items-start">
-            {children}
+            {text}
         </div>
     </div>
 );
