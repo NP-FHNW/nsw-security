@@ -27,8 +27,12 @@ export const ImageCard: FC<Props> = ({
   reverse = false,
   imgDescription = "",
 }) => (
-  <div className={`flex items-center gap-8 ${getClassNames(reverse)}`}>
-    <Image width="w-1/2" src={imgSrc} alt={imgDescription} />
+  <div
+    className={`flex items-center gap-8 flex-wrap md:flex-nowrap mx-auto lg:mx-0 ${getClassNames(
+      reverse
+    )}`}
+  >
+    <Image width="w-full md:w-1/2" src={imgSrc} alt={imgDescription} />
     <div className="flex flex-col items-start">
       <Heading3>{title}</Heading3>
       <Paragraph>{text}</Paragraph>
