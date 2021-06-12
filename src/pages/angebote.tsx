@@ -12,7 +12,7 @@ export default function Angebote() {
       <Heading2>Lassen Sie sich von unseren Angeboten überzeugen</Heading2>
         <div className="grid gap-16">
             <IconCardBig
-                icon={<HiStar size={180} className="bg-gray-300 rounded-full p-2"/>}
+                icon={<HiStar className="w-20 sm:w-30 md:w-40 lg:w-50 h-full bg-gray-200 rounded-full p-2"/>}
                 button={<LinkButton href={"/kontakt"}>Offerte anfragen</LinkButton>}>
                 <Heading3>Grossanlässe</Heading3>
                 <p>
@@ -20,7 +20,7 @@ export default function Angebote() {
                 </p>
             </IconCardBig>
             <IconCardBig
-                icon={<HiUsers size={180} className="bg-gray-300 rounded-full p-2"/>}
+                icon={<HiUsers className="w-20 sm:w-30 md:w-40 lg:w-50 h-full bg-gray-200 rounded-full p-2"/>}
                 button={<LinkButton href={"/kontakt"}>Offerte anfragen</LinkButton>}>
                 <Heading3>Kleinanlässe</Heading3>
                 <p>
@@ -32,7 +32,7 @@ export default function Angebote() {
                     - Objektschutz                </p>
             </IconCardBig>
             <IconCardBig
-                icon={<HiOutlineCube size={180} className="bg-gray-300 rounded-full p-2"/>}
+                icon={<HiOutlineCube className="w-20 sm:w-30 md:w-40 lg:w-50 h-full bg-gray-200 rounded-full p-2"/>}
                 button={<LinkButton href={"/kontakt"}>Offerte anfragen</LinkButton>}>
                 <Heading3>Baustellenservice</Heading3>
                 <p>
