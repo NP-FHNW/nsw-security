@@ -10,14 +10,14 @@ export default function Home() {
         <Heading1>IHRE SICHERHEIT INTERESSIERT UNS MIT SICHERHEIT WIR MACHEN UNS STARK FÜR SIE</Heading1>
         <div className="grid grid-rows gap-8 md:gap-16 lg:gap-20">
             <ImageCard
-                imgSrc={"https://www.nsw.ch/wp-content/uploads/2018/06/n-medium2x-16x9-300x179.jpg"}
+                imgSrc={"/images/centurion.jpg"}
                 title={"Centurion Baustelle in Windisch."}
                 text={"Während des Neubau des Centurion Tower in Windisch haben wir für Sicherheit gesorgt."}
                 imgDescription={"Centurion Baustelle Windisch"}>
                 <LinkButton className="my-4" href={"/Angebote"}>Angebote</LinkButton>
             </ImageCard>
             <ImageCard
-                imgSrc={"https://www.nsw.ch/wp-content/uploads/2018/07/IMG_0005a-300x225.jpg"}
+                imgSrc={"/images/neuwiesen-center-winti.jpg"}
                 title={"Neuwiesen Center Winterthur."}
                 text={"Mit diesen Angeboten machen wir uns für Sie stark."}
                 imgDescription={"Neuwiesen Center Winterthur"}
