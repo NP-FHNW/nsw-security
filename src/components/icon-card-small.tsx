@@ -9,8 +9,8 @@ type Props = {
 };
 
 export const IconCardSmall: FC<Props> = ({ icon, text, link, linkLabel }) => (
-  <div className="inline-grid rounded border-2 border-gray-500 p-4">
-    <div className="flex flex-col items-center gap-4">
+  <div className="inline-grid rounded border-2 border-gray-300 p-6">
+    <div className="flex flex-col items-center gap-6">
       <div className="flex-auto">{icon}</div>
       <div className="flex-auto">
         <h4>{text}</h4>
