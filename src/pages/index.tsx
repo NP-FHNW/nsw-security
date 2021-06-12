@@ -6,15 +6,15 @@ import {IconCardSmall} from "../components/icon-card-small";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows gap-10 items-center">
+    <div className="grid grid-rows gap-8 md:gap-18 lg:gap-28 items-center">
         <Heading1>IHRE SICHERHEIT INTERESSIERT UNS MIT SICHERHEIT WIR MACHEN UNS STARK FÜR SIE</Heading1>
-        <div className="grid grid-rows gap-12">
+        <div className="grid grid-rows gap-8 md:gap-16 lg:gap-20">
             <ImageCard
                 imgSrc={"https://www.nsw.ch/wp-content/uploads/2018/06/n-medium2x-16x9-300x179.jpg"}
                 title={"Centurion Baustelle in Windisch."}
                 text={"Während des Neubau des Centurion Tower in Windisch haben wir für Sicherheit gesorgt."}
                 imgDescription={"Centurion Baustelle Windisch"}>
-                <LinkButton href={"/Angebote"}>Angebote</LinkButton>
+                <LinkButton className="my-4" href={"/Angebote"}>Angebote</LinkButton>
             </ImageCard>
             <ImageCard
                 imgSrc={"https://www.nsw.ch/wp-content/uploads/2018/07/IMG_0005a-300x225.jpg"}
@@ -22,22 +22,25 @@ export default function Home() {
                 text={"Mit diesen Angeboten machen wir uns für Sie stark."}
                 imgDescription={"Neuwiesen Center Winterthur"}
                 reverse={true}>
-                <LinkButton href={"/Angebote"}>Angebote</LinkButton>
+                <LinkButton className="my-4" href={"/Angebote"}>Angebote</LinkButton>
             </ImageCard>
         </div>
-        <div className="grid grid-cols-3 gap-8 items-center">
+        <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-3 md:grid-rows-1 lg:grid-cols-3 lg:grid-rows-1 gap-8 md:gap-12 lg:gap-16 items-center">
             <IconCardSmall
-                icon={<HiStar size={180} className="bg-gray-300 rounded-full p-2"/>}
+                className="h-full"
+                icon={<HiStar className="w-20 sm:w-30 md:w-35 lg:w-40 h-full bg-gray-200 rounded-full p-2"/>}
                 text={"Gross- und Kleinanlässe"}
                 link={"/Angebote"}
                 linkLabel={"Details"}/>
             <IconCardSmall
-                icon={<HiUsers size={180} className="bg-gray-300 rounded-full p-2"/>}
+                className="h-full"
+                icon={<HiUsers className="w-20 sm:w-30 md:w-35 lg:w-40 h-full bg-gray-200 rounded-full p-2"/>}
                 text={"Begleit- und Personenschutz"}
                 link={"/Angebote"}
                 linkLabel={"Details"}/>
             <IconCardSmall
-                icon={<HiOutlineCube size={180} className="bg-gray-300 rounded-full p-2"/>}
+                className="h-full"
+                icon={<HiOutlineCube className="w-20 sm:w-30 md:w-35 lg:w-40 h-full bg-gray-200 rounded-full p-2"/>}
                 text={"Baustellenservice"}
                 link={"/Angebote"}
                 linkLabel={"Details"}/>
@@ -47,8 +50,8 @@ export default function Home() {
                 <h2 className="font-bold">Fragen?</h2>
                 <p>Gerne beantworten wir alle Ihre Fragen:</p>
                 <div className="grid grid-cols-2 gap-8">
-                    <LinkButton href={"/faq"}>FAQ</LinkButton>
-                    <LinkButton href={"/kontakt"}>Kontakt</LinkButton>
+                    <LinkButton className="text-center" href={"/faq"}>FAQ</LinkButton>
+                    <LinkButton className="text-center" href={"/kontakt"}>Kontakt</LinkButton>
                 </div>
             </div>
         </div>
