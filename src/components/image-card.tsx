@@ -13,7 +13,7 @@ type Props = {
 
 function getClassNames(reverse) {
   if (reverse) {
-    return "flex-row-reverse";
+    return "sm:flex-row md:flex-row-reverse lg:flex-row-reverse";
   }
 
   return "flex-row";
@@ -28,7 +28,7 @@ export const ImageCard: FC<Props> = ({
   imgDescription = "",
 }) => (
   <div
-    className={`flex items-center gap-8 flex-wrap md:flex-nowrap mx-auto lg:mx-0 ${getClassNames(
+    className={`flex items-center gap-8 flex-wrap md:flex-nowrap mx:auto my:auto lg:mx-0 ${getClassNames(
       reverse
     )}`}
   >
