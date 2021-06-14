@@ -3,8 +3,8 @@ import { Heading3 } from "../typography/heading3";
 
 export default function Impressum() {
   return (
-    <div>
-      <Heading1>Impressum</Heading1>
+    <>
+      <Heading1>IMPRESSUM</Heading1>
       <Heading3>NSW Security-Services</Heading3>
       <div className="flex flex-col">
         <span>NSW Security-Services</span>
@@ -34,6 +34,6 @@ export default function Impressum() {
           <span> +41 52 242 46 55</span>
         </div>
       </div>
-    </div>
+    </>
   );
 }

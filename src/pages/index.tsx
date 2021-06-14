@@ -31,7 +31,7 @@ export default function Home() {
             imgDescription={"Neuwiesen Center Winterthur"}
             reverse={true}
           >
-            <LinkButton className="my-4" href={"/Angebote"}>
+            <LinkButton className="my-4" href={"/angebote"}>
               Angebote
             </LinkButton>
           </ImageCard>
@@ -44,7 +44,7 @@ export default function Home() {
               <HiStar className="w-20 sm:w-30 md:w-35 lg:w-40 h-full bg-gray-200 rounded-full p-2" />
             }
             text={"Gross- und Kleinanlässe"}
-            link={"/Angebote"}
+            link={"/angebote"}
             linkLabel={"Details"}
           />
           <IconCardSmall
@@ -52,8 +52,8 @@ export default function Home() {
             icon={
               <HiUsers className="w-20 sm:w-30 md:w-35 lg:w-40 h-full bg-gray-200 rounded-full p-2" />
             }
-            text={"Begleit- und Personenschutz"}
-            link={"/Angebote"}
+            text={"Begleit-/Personenschutz"}
+            link={"/angebote"}
             linkLabel={"Details"}
           />
           <IconCardSmall
@@ -62,7 +62,7 @@ export default function Home() {
               <HiOutlineCube className="w-20 sm:w-30 md:w-35 lg:w-40 h-full bg-gray-200 rounded-full p-2" />
             }
             text={"Baustellenservice"}
-            link={"/Angebote"}
+            link={"/angebote"}
             linkLabel={"Details"}
           />
         </div>

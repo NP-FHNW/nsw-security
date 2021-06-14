@@ -1,4 +1,5 @@
 import { Image } from "../elements/image";
+import { Heading1 } from "../typography/heading1";
 import { Heading2 } from "../typography/heading2";
 import { Paragraph } from "../typography/paragraph";
 
@@ -7,17 +8,17 @@ export default function AGB() {
     <div className="inline-grid">
       <div className="flex flex-col gap-10">
         <div>
-          <Heading2>AGB</Heading2>
+          <Heading1>AGB</Heading1>
           <Paragraph>
-            Allgemeine Geschäftbedingungen Der Auftraggeber / Veranstalter
-            überträgt dem Beauftragten während der Dauer des Einsatzes das
-            Hausrecht gemäss Art. 186 StGB. Der Beauftragte kann Personen
-            jeglicher Art vom Areal verweisen ohne vorgängig den Auftraggeber /
-            Veranstalter zu informieren. Der Beauftragte kann jederzeit ohne
-            Einhaltung einer Kündigungsfrist den Auftrag kündigen, sollten sie
-            zu gesetzwidrigen Aufgaben beauftragt werden. Der Beauftragte ist
-            während der Veranstaltung bevollmächtigt, selbst über den Einsatz
-            von Polizei und Rettungskräften zu entscheiden.
+            Der Auftraggeber / Veranstalter überträgt dem Beauftragten während
+            der Dauer des Einsatzes das Hausrecht gemäss Art. 186 StGB. Der
+            Beauftragte kann Personen jeglicher Art vom Areal verweisen ohne
+            vorgängig den Auftraggeber / Veranstalter zu informieren. Der
+            Beauftragte kann jederzeit ohne Einhaltung einer Kündigungsfrist den
+            Auftrag kündigen, sollten sie zu gesetzwidrigen Aufgaben beauftragt
+            werden. Der Beauftragte ist während der Veranstaltung
+            bevollmächtigt, selbst über den Einsatz von Polizei und
+            Rettungskräften zu entscheiden.
           </Paragraph>
         </div>
         <div>
@@ -45,7 +46,7 @@ export default function AGB() {
           </Paragraph>
         </div>
         <div>
-          <Heading2>Zsätzliche Bewilligungen</Heading2>
+          <Heading2>Zusätzliche Bewilligungen</Heading2>
           <Paragraph>
             Bewilligungspflichtigen Tätigkeit im Bereich der privaten
             Sicherheitsdienste im Kt. Aargau Ausübung von gewerbsmässigen

@@ -17,12 +17,14 @@ export const IconCardSmall: FC<Props> = ({
   className,
 }) => (
   <div
-    className={`inline-grid rounded border-2 border-gray-300 p-6 ${className}`}
+    className={`inline-grid rounded-md shadow-lg p-8 hover:bg-gray-100 transition-colors ${className}`}
   >
-    <div className="flex flex-col items-center gap-6 m-auto text-center">
-      <div>{icon}</div>
-      <h4>{text}</h4>
-      <LinkButton href={link}>{linkLabel}</LinkButton>
-    </div>
+    <a href={link}>
+      <div className="flex flex-col items-center gap-6 m-auto text-center">
+        <div>{icon}</div>
+        <h4>{text}</h4>
+        <LinkButton href={link}>{linkLabel}</LinkButton>
+      </div>
+    </a>
   </div>
 );
