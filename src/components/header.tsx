@@ -70,7 +70,7 @@ export const Header = () => {
         <NavBase
           className={`flex lg:hidden flex-col transform ${
             isOpen ? "translate-x-0" : "translate-x-full"
-          } transition-transform ease-in-out duration-500 fixed top-24 right-0 w-full md:w-1/2 h-screen items-center gap-8 pt-8 bg-darkblue`}
+          } transition-transform ease-in-out duration-500 fixed top-24 right-0 w-full md:w-1/2 h-screen items-center gap-8 pt-8 bg-darkblue z-10`}
           close={() => setOpen(false)}
         />
       </div>
