@@ -20,7 +20,7 @@ export default function Home() {
             }
             imgDescription={"Centurion Baustelle Windisch"}
           >
-            <LinkButton className="my-4" href={"/Angebote"}>
+            <LinkButton className="my-4" href={"/angebote"}>
               Angebote
             </LinkButton>
           </ImageCard>
@@ -39,7 +39,6 @@ export default function Home() {
 
         <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-3 md:grid-rows-1 lg:grid-cols-3 lg:grid-rows-1 gap-8 md:gap-12 lg:gap-16 items-center">
           <IconCardSmall
-            className="h-full"
             icon={
               <HiStar className="w-20 sm:w-30 md:w-35 lg:w-40 h-full bg-gray-200 rounded-full p-2" />
             }
@@ -48,7 +47,6 @@ export default function Home() {
             linkLabel={"Details"}
           />
           <IconCardSmall
-            className="h-full"
             icon={
               <HiUsers className="w-20 sm:w-30 md:w-35 lg:w-40 h-full bg-gray-200 rounded-full p-2" />
             }
@@ -57,7 +55,6 @@ export default function Home() {
             linkLabel={"Details"}
           />
           <IconCardSmall
-            className="h-full"
             icon={
               <HiOutlineCube className="w-20 sm:w-30 md:w-35 lg:w-40 h-full bg-gray-200 rounded-full p-2" />
             }
