@@ -6,7 +6,7 @@ type Props = {
 };
 
 export const IconCardBig: FC<Props> = ({ children, icon, button }) => (
-  <div className="flex gap-8 items-center">
+  <div className="flex gap-8 items-start md:items-center flex-wrap sm:flex-nowrap">
     <div className="flex-shrink-0">{icon}</div>
     <div className="flex-auto">
       <div className="flex flex-col gap-4">
