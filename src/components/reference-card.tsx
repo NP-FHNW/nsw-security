@@ -1,13 +1,12 @@
 import React, { FC } from "react";
-import { Image } from "../elements/image";
-import { Title } from "../typography/title";
+import { Heading3 } from "../typography/heading3";
 
 type Props = {
   imgSrc: string;
   title: string;
   link: string;
   className?: string;
-  alt?: string;
+  contain?: boolean;
 };
 
 export const ReferenceCard: FC<Props> = ({
@@ -15,15 +14,20 @@ export const ReferenceCard: FC<Props> = ({
   title,
   link,
   className = "",
-  alt = "",
+  contain = false,
 }) => (
-  <div className={`max-w-full w-40 ${className}`}>
+  <div className={`max-w-full ${className}`}>
     <a
       href={link}
-      className="flex flex-col text-center gap-4 opacity-100 hover:opacity-60 transition-opacity"
+      className="flex flex-col gap-4 opacity-100 hover:opacity-60 transition-opacity"
     >
-      <Image src={imgSrc} alt={alt} />
-      <Title>{title}</Title>
+      <div
+        className={`h-52 sm:h-80 md:h-64 bg-center ${
+          contain ? "bg-contain bg-no-repeat" : "bg-cover "
+        } `}
+        style={{ backgroundImage: "url(" + imgSrc + ")" }}
+      ></div>
+      <Heading3>{title}</Heading3>
     </a>
   </div>
 );

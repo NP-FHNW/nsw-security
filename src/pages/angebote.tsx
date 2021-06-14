@@ -6,7 +6,7 @@ import { Heading3 } from "../typography/heading3";
 
 export default function Angebote() {
   return (
-    <div className="grid gap-10">
+    <>
       <Heading1>MIT DIESEN ANGEBOTEN MACHEN WIR UNS FÜR SIE STARK</Heading1>
       <div className="grid gap-16">
         <IconCardBig
@@ -66,6 +66,6 @@ export default function Angebote() {
           </p>
         </IconCardBig>
       </div>
-    </div>
+    </>
   );
 }

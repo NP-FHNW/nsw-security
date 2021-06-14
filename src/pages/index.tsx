@@ -14,7 +14,7 @@ export default function Home() {
         <div className="grid grid-rows gap-8 md:gap-16 lg:gap-20">
           <ImageCard
             imgSrc={"/images/centurion.jpg"}
-            title={"Centurion Baustelle in Windisch."}
+            title={"Centurion Baustelle Windisch"}
             text={
               "Während des Neubau des Centurion Tower in Windisch haben wir für Sicherheit gesorgt."
             }
@@ -26,7 +26,7 @@ export default function Home() {
           </ImageCard>
           <ImageCard
             imgSrc={"/images/neuwiesen-center-winti.jpg"}
-            title={"Neuwiesen Center Winterthur."}
+            title={"Neuwiesen Center Winterthur"}
             text={"Mit diesen Angeboten machen wir uns für Sie stark."}
             imgDescription={"Neuwiesen Center Winterthur"}
             reverse={true}
