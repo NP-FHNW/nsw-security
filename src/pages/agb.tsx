@@ -57,15 +57,15 @@ export default function AGB() {
         </div>
         <div>
           <Heading2>Mitgliedschaften</Heading2>
-          <div className="flex gap-12">
+          <div className="flex flex-col md:flex-row lg:flex-row gap-12">
             <Image
               src={"/images/vosu.png"}
-              height="h-32"
+              height="md:h-32 lg:h-32"
               alt={"Verband Ostschweizerischer Sicherheitsunternehmen VOSU"}
             />
             <Image
               src={"/images/vssu.jpg"}
-              height="h-32"
+              height="md:h-32 lg:h-32"
               alt={
                 "Verband Schweizerischer Sicherheitsdienstleistungs-​Unternehmen (VSSU)"
               }
