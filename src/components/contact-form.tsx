@@ -4,22 +4,22 @@ import { Label } from "../elements/label";
 
 export const ContactForm = () => (
   <form
-    className="max-w-full lg:max-w-2xl grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-8 mb-10"
+    className="max-w-full grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8 mb-10"
     action=""
   >
     <Input id="firma" label="Firma*" />
-    <Input id="name" label="Name*" />
-    <Input id="email" label="E-Mail*" />
-    <Input id="tel" label="Telefonnummer*" />
-    <Input id="betreff" label="Betreff" className="lg:col-span-2" />
-    <div className="flex flex-col lg:col-span-2">
+    <Input id="betreff" label="Betreff" className="md:col-start-2" />
+    <Input id="name" label="Name*" className="row-start-2" />
+    <Input id="email" label="E-Mail*" className="row-start-3" />
+    <Input id="tel" label="Telefonnummer*" className="row-start-4" />
+    <div className="flex flex-col md:col-start-2 md:row-span-3">
       <Label forInput="nachricht">Nachricht</Label>
-      <textarea id="nachricht" className="h-32 border rounded-md" />
+      <textarea id="nachricht" className="h-48 md:h-full border rounded-md" />
     </div>
     <Button
       onClick={() => alert("submitted")}
       type="submit"
-      className="lg:col-span-2 mx-auto"
+      className="md:col-span-2 ml-auto"
     >
       senden
     </Button>
