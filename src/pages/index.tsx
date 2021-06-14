@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Heading1>IHRE SICHERHEIT INTERESSIERT UNS MIT SICHERHEIT</Heading1>
-      <div className="grid grid-rows mt-16 gap-8 md:gap-16 lg:gap-20 items-center">
+      <div className="grid grid-rows gap-8 md:gap-16 lg:gap-20 items-center">
         <div className="grid grid-rows gap-8 md:gap-16 lg:gap-20">
           <ImageCard
             imgSrc={"/images/centurion.jpg"}

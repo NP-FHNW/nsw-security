@@ -58,7 +58,11 @@ export const Header = () => {
           </a>
         </Link>
         <NavBase className="hidden lg:flex items-center gap-8" />
-        <div className="block lg:hidden">
+        <div
+          className={`${
+            isOpen ? "fixed top-6 right-6" : "block"
+          } block lg:hidden z-20`}
+        >
           <Hamburger
             toggled={isOpen}
             toggle={() => setOpen(!isOpen)}
@@ -70,7 +74,7 @@ export const Header = () => {
         <NavBase
           className={`flex lg:hidden flex-col transform ${
             isOpen ? "translate-x-0" : "translate-x-full"
-          } transition-transform ease-in-out duration-500 fixed top-24 right-0 w-full md:w-1/2 h-screen items-center gap-8 pt-8 bg-darkblue z-10`}
+          } transition-transform ease-in-out duration-500 fixed top-0 right-0 w-full md:w-1/2 h-screen items-center gap-8 pt-24 bg-darkblue z-10`}
           close={() => setOpen(false)}
         />
       </div>

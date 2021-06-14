@@ -5,7 +5,7 @@ export default function Referenzen() {
   return (
     <>
       <Heading1>UNSERE REFERENZEN SIND GOLD WERT</Heading1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 lg:gap-20">
         <ReferenceCard
           imgSrc={"/images/centurion.jpg"}
           title={"Centurion Baustelle"}
@@ -25,6 +25,12 @@ export default function Referenzen() {
           imgSrc={"/images/fc-winterthur.png"}
           title={"FC Winterthur"}
           link="https://fcwinterthur.ch/"
+          contain
+        />
+        <ReferenceCard
+          imgSrc={"/images/handball-schweiz.png"}
+          title={"Handball Schweiz"}
+          link="https://www.handball.ch/de/"
           contain
         />
       </div>

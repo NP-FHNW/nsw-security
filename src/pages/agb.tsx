@@ -54,22 +54,22 @@ export default function AGB() {
             Sicherheitsdienstleistungen im Kt. St. Gallen
           </Paragraph>
         </div>
-        <Heading2>Mitgliedschaften</Heading2>
-        <div className="grid grid-cols-2 gap-8">
-          <Image
-            src={
-              "https://www.nsw.ch/wp-content/uploads/2018/06/vosu-150x145.png"
-            }
-            alt={"Verband Ostschweizerischer Sicherheitsunternehmen VOSU"}
-          />
-          <Image
-            src={
-              "https://www.nsw.ch/wp-content/uploads/2018/06/VSSU_icon-300x150.png"
-            }
-            alt={
-              "Verband Schweizerischer Sicherheitsdienstleistungs-​Unternehmen (VSSU)"
-            }
-          />
+        <div>
+          <Heading2>Mitgliedschaften</Heading2>
+          <div className="flex gap-12">
+            <Image
+              src={"/images/vosu.png"}
+              height="h-32"
+              alt={"Verband Ostschweizerischer Sicherheitsunternehmen VOSU"}
+            />
+            <Image
+              src={"/images/vssu.jpg"}
+              height="h-32"
+              alt={
+                "Verband Schweizerischer Sicherheitsdienstleistungs-​Unternehmen (VSSU)"
+              }
+            />
+          </div>
         </div>
       </div>
     </div>
