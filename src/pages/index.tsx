@@ -37,7 +37,7 @@ export default function Home() {
           </ImageCard>
         </div>
 
-        <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-3 md:grid-rows-1 lg:grid-cols-3 lg:grid-rows-1 gap-8 md:gap-12 lg:gap-16 items-center">
+        <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-3 md:grid-rows-1 gap-8 md:gap-12 lg:gap-16 items-center">
           <IconCardSmall
             icon={
               <HiStar className="w-20 sm:w-30 md:w-35 lg:w-40 h-full bg-gray-200 rounded-full p-2" />
@@ -50,7 +50,7 @@ export default function Home() {
             icon={
               <HiUsers className="w-20 sm:w-30 md:w-35 lg:w-40 h-full bg-gray-200 rounded-full p-2" />
             }
-            text={"Begleit-/Personenschutz"}
+            text={"Begleit- und Personenschutz"}
             link={"/angebote"}
             linkLabel={"Details"}
           />
