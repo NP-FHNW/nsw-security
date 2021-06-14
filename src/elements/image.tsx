@@ -20,6 +20,6 @@ export const Image: FC<Props> = ({
     alt={alt}
     className={`${width ? width : "max-w-full"} ${
       height ? height : "h-auto"
-    } ${className}`}
+    } rounded-md ${className}`}
   />
 );

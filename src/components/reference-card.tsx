@@ -22,7 +22,7 @@ export const ReferenceCard: FC<Props> = ({
       className="flex flex-col gap-4 opacity-100 hover:opacity-60 transition-opacity"
     >
       <div
-        className={`h-52 sm:h-80 md:h-64 bg-center ${
+        className={`h-52 sm:h-80 md:h-64 bg-center rounded-md ${
           contain ? "bg-contain bg-no-repeat" : "bg-cover "
         } `}
         style={{ backgroundImage: "url(" + imgSrc + ")" }}
