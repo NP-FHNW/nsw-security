@@ -8,7 +8,7 @@ export default function Referenzen() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 lg:gap-20">
 
       <ReferenceCard
-          imgSrc={"/images/zsc-logo.jpg"}
+          imgSrc={"/images/zsc-logo.png"}
           title={"ZSC Lions (seit 2001)"}
           link="https://www.zsclions.ch/"
         ></ReferenceCard>
