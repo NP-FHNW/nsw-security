@@ -9,7 +9,7 @@ export default function Angebote() {
   return (
     <>
       <Heading1>MIT DIESEN ANGEBOTEN MACHEN WIR UNS FÜR SIE STARK</Heading1>
-      <div className="grid gap-16">
+      <div className="grid gap-20">
         <IconCardBig
           icon={
             <HiStar className="w-20 sm:w-30 md:w-40 lg:w-50 h-full bg-gray-200 rounded-full p-2" />
