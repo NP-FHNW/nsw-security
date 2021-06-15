@@ -21,7 +21,7 @@ export const ContactForm = () => (
       type="submit"
       className="md:col-span-2 ml-auto"
     >
-      senden
+      Nachricht senden
     </Button>
   </form>
 );
